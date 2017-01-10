@@ -12,6 +12,7 @@ public class FadeIn : MonoBehaviour
     private float fadeTime = 0.0f;
     public float fadeTakeTime = 1.0f;
     public float fadeDelayTime = 0.0f;
+    public int balloonNums = 5;
 
     void Awake()
     {
@@ -27,7 +28,7 @@ public class FadeIn : MonoBehaviour
         {
             if (balloon.name == "Balloon")
             {
-                for (int i = 0; i < 5; i++)
+                for (int i = 0; i < balloonNums; i++)
                 {
                     var balloon_ = Instantiate(balloon);
                     balloon_.transform.SetParent(transform.parent);

@@ -29,7 +29,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3185545b8350b064ca1934323b3d95cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upSpeeed: 5
+  upSpeeed: 10
 --- !u!114 &11469186
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -78,7 +78,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 300, y: 400}
+  m_SizeDelta: {x: 400, y: 550}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &100100000
 Prefab:
